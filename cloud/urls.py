@@ -1,5 +1,6 @@
 from django.conf.urls import patterns, include, url
 from cloud.view import hello, q1
+
 # Uncomment the next two lines to enable the admin:
 # from django.contrib import admin
 # admin.autodiscover()
