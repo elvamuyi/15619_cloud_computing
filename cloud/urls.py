@@ -1,5 +1,5 @@
 from django.conf.urls import patterns, include, url
-from cloud.view import hello, q1
+from cloud.view import hello, q1, q2, q3
 
 # Uncomment the next two lines to enable the admin:
 # from django.contrib import admin
@@ -18,5 +18,6 @@ urlpatterns = patterns('',
 
     url(r'^$', hello),
     url(r'^q1/$', q1),
-
+    url(r'^q2/$', q2),
+    url(r'^q3/$', q3),
 )
