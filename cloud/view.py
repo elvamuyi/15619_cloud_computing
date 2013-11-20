@@ -2,7 +2,7 @@ from django.http import HttpResponse
 import datetime
 
 TEAMID = 'Alvin'
-AWS_ACCOUNT_ID = '1111-2222-3333'
+AWS_ACCOUNT_ID = '3374-9456-1394'
 
 def hello(request):
     return HttpResponse("Hello world")
