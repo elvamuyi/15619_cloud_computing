@@ -1,0 +1,29 @@
+----------------------
+hbase shell
+----------------------
+$ hbase shell
+hbase(main):001:0> help
+
+hbase> create 't1', 'f1', 'f2', 'f3'
+hbase> list
+hbase> scan 't1'
+hbase> put 't1', 'r1', 'f1:c1', 'value1'
+
+
+----------------------
+hadoop commands
+----------------------
+hadoop fs -ls /
+hadoop fs -mkdir /input
+
+hadoop distcp s3://15619twitter/* /input
+
+mkdir my_classes
+javac -classpath /home/hadoop-core.jar:/home/random.jar -d my_classes MyClass.java
+jar -cvf myclass.jar -C my_classes/ .
+
+hadoop jar myclass.jar MyClass /input
+
+
+
+
