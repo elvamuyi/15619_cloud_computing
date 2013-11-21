@@ -11,7 +11,7 @@ QUALIFIER = ["time", "text", "uid", "is_re", "o_tid"]
 # changing the time format from "2013-10-02+00:00:00" in URL
 # to "Wed Oct 02 00:00:00 +0000 2013" in JSON
 def time_format(time):
-  t = datetime.datetime.strptime(time, "%Y-%m-%d+%H:%M:%S")
+  t = datetime.datetime.strptime(time, "%Y-%m-%d %H:%M:%S")
   return t.strftime("%a %b %d %H:%M:%S +d{4} %Y")
 
 def q2_hbase(time):
