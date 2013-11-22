@@ -7,6 +7,7 @@ hbase(main):001:0> help
 hbase> create 't1', 'f1', 'f2', 'f3'
 hbase> list
 hbase> scan 't1'
+hbase> scan 'user', {LIMIT => 100, STARTROW => '2'}
 hbase> put 't1', 'r1', 'f1:c1', 'value1'
 
 
