@@ -10,7 +10,6 @@ hbase> scan 't1'
 hbase> scan 'user', {LIMIT => 100, STARTROW => '2'}
 hbase> put 't1', 'r1', 'f1:c1', 'value1'
 
-
 ----------------------
 hadoop commands
 ----------------------
@@ -25,12 +24,10 @@ jar -cvf myclass.jar -C my_classes/ .
 
 hadoop jar myclass.jar MyClass /input
 
-
 ----------------------
 jars
 ----------------------
 javac -cp /home/hadoop/lib/hadoop-core.jar:/home/hadoop/lib/hbase.jar:/home/hadoop/lib/commons-logging-api-1.1.1.jar -d 3_classes/ AddReUsersToUserTable.java
-
 
 ----------------------
 start thrift on hbase master
@@ -38,5 +35,10 @@ start thrift on hbase master
 $ cd ~/bin/
 $ hbase-daemon.sh start thrift
 
-
+----------------------
+json-simple.jar problem
+----------------------
+after javac, unzip jar, put json-simple-1.1.1.jar in /lib
+update mainfest file: Class-Path: /lib/json-simple-1.1.1.jar
+zip again with jar -cvfM
 
