@@ -76,6 +76,8 @@ def q4_hbase(userid):
   result_string = ""
   if result:
     result_string = result["re:re_uids"]
+  
+  # TODO: sort by uid
 
   return result_string
 
