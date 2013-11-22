@@ -24,12 +24,18 @@ jar -cvf myclass.jar -C my_classes/ .
 
 hadoop jar myclass.jar MyClass /input
 
--------
+
+----------------------
 jars
--------
+----------------------
 javac -cp /home/hadoop/lib/hadoop-core.jar:/home/hadoop/lib/hbase.jar:/home/hadoop/lib/commons-logging-api-1.1.1.jar -d 3_classes/ AddReUsersToUserTable.java
 
 
+----------------------
+start thrift on hbase master
+----------------------
+$ cd ~/bin/
+$ hbase-daemon.sh start thrift
 
 
 
