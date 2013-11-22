@@ -1,5 +1,5 @@
 from django.conf.urls import patterns, include, url
-from cloud.view import hello, q1, q2, q3, q4
+from cloud.view import *
 
 # Uncomment the next two lines to enable the admin:
 # from django.contrib import admin
