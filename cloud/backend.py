@@ -2,7 +2,7 @@ import happybase
 import datetime
 
 DEBUG = True
-HBASE_SERVER = 'ec2-107-20-14-178.compute-1.amazonaws.com'
+HBASE_SERVER = 'http://ec2-23-23-39-31.compute-1.amazonaws.com/'
 TABLE_TWEET = 'tweet'
 TABLE_USER = 'user'
 # TWEET_FAMILY = ["time", "text", "user", "re"]
