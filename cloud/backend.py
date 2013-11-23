@@ -2,7 +2,7 @@ import happybase
 import datetime
 
 DEBUG = True
-HBASE_SERVER = 'ec2-23-23-39-31.compute-1.amazonaws.com'
+HBASE_SERVER = 'ec2-23-22-204-150.compute-1.amazonaws.com'
 TABLE_TWEET = 'tweet'
 TABLE_USER = 'user'
 #FAMILY = ["time", "text", "user", "re"]
@@ -23,24 +23,20 @@ def q2_hbase(time):
 
   table = conn.table(TABLE_TWEET)
   results = []
-  filter_string = "SingleColumnValueFilter ('time', 'time', =, 'regexstring:" + time_format(time) + "')"
+  filter_string = "SingleColumnValueFilter ('time', 'time', =, 'binary:" + time_format(time) + "')"
 
   for key, value in table.scan(columns=["text:text"],filter=filter_string):
-    result = key + ":" + value['text:text']
+    result = (int(key),value['text:text'])
     results.append(result)
 
   results = list(set(results))
-  results.sort()
+  results = sorted(results)
   result_string = ""
 
   for i in range(0, len(results)):
-    result_string += results[i]+'\n'
+    result_string += str(results[i][0])+':'+results[i][1]+'\n'
 
   return result_string
-
-def time_format(time):
-  t = datetime.datetime.strptime(time, "%Y-%m-%d %H:%M:%S")
-  return t.strftime("%a %b %d %H:%M:%S +d{4} %Y")
 
 def q3_hbase(userid_min, userid_max):
   conn = happybase.Connection(HBASE_SERVER)
@@ -73,11 +69,15 @@ def q4_hbase(userid):
   table = conn.table(TABLE_USER)
   result = table.row(str(userid), columns=["re:re_uids"])
 
+  results = []
   result_string = ""
   if result:
-    result_string = result["re:re_uids"]
-  
-  # TODO: sort by uid
+    results = result["re:re_uids"].split('\n')
+
+  results = sorted(results, key=lambda x: int(x))
+
+  for i in range(0, len(results)):
+    result_string += results[i]+'\n'
 
   return result_string
 
