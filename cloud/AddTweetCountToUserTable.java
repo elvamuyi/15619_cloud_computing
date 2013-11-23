@@ -62,13 +62,6 @@ public class AddTweetCountToUserTable {
     
     TableMapReduceUtil.initTableMapperJob(INPUT_TABLE, scan, HbaseTableMapper.class, Text.class, IntWritable.class, job);
     TableMapReduceUtil.initTableReducerJob(OUTPUT_TABLE, HbaseTableReducer.class, job);
-    
-//    job.setMapperClass(HbaseTableMapper.class);
-//    job.setReducerClass(HbaseTableReducer.class);
-//    job.setOutputFormatClass(TableOutputFormat.class);
-//    job.getConfiguration().set(TableOutputFormat.OUTPUT_TABLE, OUTPUT_TABLE);
-//    job.setOutputKeyClass(ImmutableBytesWritable.class);
-//    job.setOutputValueClass(Writable.class);
 
     System.exit(job.waitForCompletion(true) ? 0 : 1);
   }
