@@ -42,3 +42,12 @@ after javac, unzip jar, put json-simple-1.1.1.jar in /lib
 update mainfest file: Class-Path: /lib/json-simple-1.1.1.jar
 zip again with jar -cvfM
 
+----------------------
+hadoop distcp problem: can't copy a directory
+----------------------
+s3cmd ls s3://15619twitter/ > out
+cut -c30-83 out > filelist
+hadoop mkdir /input
+hadoop mkdir /input/data
+hadoop fs -put filelist /input
+hadoop distcp -f /input/filelist /input/data
