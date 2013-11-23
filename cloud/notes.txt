@@ -4,9 +4,10 @@ hbase shell
 $ hbase shell
 hbase(main):001:0> help
 
-hbase> create 't1', 'f1', 'f2', 'f3'
+hbase> create 'tweet', 'text', 'time', 're', 'user'
+hbase> create 'user', 'count', 're'
 hbase> list
-hbase> scan 't1'
+hbase> count 'user'
 hbase> scan 'user', {LIMIT => 100, STARTROW => '2'}
 hbase> put 't1', 'r1', 'f1:c1', 'value1'
 
@@ -47,7 +48,8 @@ hadoop distcp problem: can't copy a directory
 ----------------------
 s3cmd ls s3://15619twitter/ > out
 cut -c30-83 out > filelist
-hadoop mkdir /input
-hadoop mkdir /input/data
+hadoop fs -mkdir /input
+hadoop fs -mkdir /input/data
 hadoop fs -put filelist /input
 hadoop distcp -f /input/filelist /input/data
+hadoop fs -rmr /input/data/_distcp....
