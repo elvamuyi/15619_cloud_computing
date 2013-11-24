@@ -40,8 +40,9 @@ def q3_hbase(userid_min, userid_max):
   filter_string = "(RowFilter (>=, 'binary:" + str(userid_min) + "') AND RowFilter (<=, 'binary:" + str(userid_max) + "'))"
 
   for key, value in table.scan(columns=["count:count"],filter=filter_string):
-    result = value['count:count']
-    results.append(result)
+    if (int(key) >= int(userid_min) and int(key) <= int(userid_max)):
+      result = value['count:count']
+      results.append(result)
 
   sum = 0
   for i in range(0, len(results)):
