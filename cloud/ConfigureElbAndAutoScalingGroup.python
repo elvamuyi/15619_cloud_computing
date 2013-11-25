@@ -42,8 +42,8 @@ as_conn.create_launch_configuration(lc)
 lc = as_conn.get_all_launch_configurations(names=['as_launch_configuration'])[0]
 
 # create a Tag for the austoscale group
-tag1 = boto.ec2.autoscale.tag.Tag(key='15619_Group', value = 'Alvin', propagate_at_launch=True, resource_id=group_name)
-tag1 = boto.ec2.autoscale.tag.Tag(key='15619_Step', value = '5', propagate_at_launch=True, resource_id=group_name)
+tag1 = boto.ec2.autoscale.tag.Tag(key='15619_Group', value = 'Alvin', propagate_at_launch=True, resource_id='as_group')
+tag1 = boto.ec2.autoscale.tag.Tag(key='15619_Step', value = '5', propagate_at_launch=True, resource_id='as_group')
 
 # create an auto scaling group
 ag = boto.ec2.autoscale.group.AutoScalingGroup(
