@@ -37,8 +37,8 @@ public class AddReUsersToUserTable {
       if (is_re) {
         String uid = new String(columns.getValue(USER, UID));     // get value in column "user:uid"
         String o_uid = new String(columns.getValue(RE, O_UID));;  // get value in column "re:o_uid"
-
-        user_id.set(o_uid);
+        String formated_o_uid = String.format("%020d", Long.parseLong(o_uid));
+        user_id.set(formated_o_uid);
         re_uid.set(uid);
         context.write(user_id, re_uid);
       }
