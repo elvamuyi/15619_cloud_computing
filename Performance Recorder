@@ -63,25 +63,38 @@ Error Rate: 88.15%        // Errors:
 Correctness: 69.00%       // 503 Service Unavailable: Back-end server is at capacity
 
 -------------------------
+ **** Optimized q3  ****
+-------------------------
+
+-------------------------
 BackEnd Cluster: 1 + 3 m1.large
 FrontEnd Server: 1 m1.medium
 -------------------------
 q1:
 Duration: 60
-Throughput: 103.0 qps
-Avg. Latency: 476 ms
-Error Rate: 3.80%
+Throughput: 138.6 qps
+Avg. Latency: 357 ms
+Error Rate: 2.24%
 Correctness: 100%
 
 q2:
 Duration: 300
-Throughput: 135.5 qps
-Avg. Latency: 147 ms
-Error Rate: 0.13%
+Throughput: 153.2 qps
+Avg. Latency: 130 ms
+Error Rate: 0.11%
 Correctness: 0%           // encoding issue
 
 q3:
+Duration: 300
+Throughput: 95.1 qps
+Avg. Latency: 105 ms
+Error Rate: 0.00%
+Correctness: 100.00%
 
 q4:
-
+Duration: 300
+Throughput: 241.4 qps
+Avg. Latency: 82 ms
+Error Rate: 0.06%
+Correctness: 100.00%
 
