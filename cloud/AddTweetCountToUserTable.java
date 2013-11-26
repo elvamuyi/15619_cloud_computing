@@ -31,7 +31,8 @@ public class AddTweetCountToUserTable {
     
     public void map(ImmutableBytesWritable row, Result columns, Context context) throws IOException, InterruptedException {
       String uid = new String(columns.getValue(USER, UID));  // get value in column "user:uid"
-      user_id.set(uid);
+      String formated_uid = String.format("%020d", Long.parseLong(uid));
+      user_id.set(formated_uid);
       context.write(user_id, one);
     }
   }
