@@ -1,0 +1,312 @@
+hbase(main):001:0> scan 'tweet', {COLUMNS=>['time:time','text:text'], LIMIT=>100}
+ROW                                      COLUMN+CELL
+ 385079046045835264                      column=text:text, timestamp=1385306918429, value=RT @LeaVerou: Every time I face a card payment UI that asks you to
+                                         select your card type, I die a little inside. FFS, that\xE2\x80\x99s info contained\xE2\x80\xA6
+ 385079046045835264                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:33 +0000 2013
+ 385079046045847552                      column=text:text, timestamp=1385306918429, value=Au tient la biatch de service ! #IDV3
+ 385079046045847552                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:33 +0000 2013
+ 385079046045847553                      column=text:text, timestamp=1385306918429, value=!?
+ 385079046045847553                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:33 +0000 2013
+ 385079046046240768                      column=text:text, timestamp=1385306918429, value=@xxhatebustersxx @CODFF  \xC3\xA7a marche pas mdr :(
+ 385079046046240768                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:33 +0000 2013
+ 385079046050025472                      column=text:text, timestamp=1385306918429, value=RT @BancadaANR: Vamos a llevarle nuestro respaldo a  @Horacio_Carte
+                                         s para la aprobaci\xC3\xB3n de importantes leyes. Dip. Cristina Villalba en @10\xE2\x80\xA6
+ 385079046050025472                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:33 +0000 2013
+ 385079046050041856                      column=text:text, timestamp=1385306918429, value=Eyebags http://t.co/hM4gcSilyF
+ 385079046050041856                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:33 +0000 2013
+ 385079046050050048                      column=text:text, timestamp=1385306918429, value=ok, me sigue saliendo sangre de la garganta... gee gee
+ 385079046050050048                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:33 +0000 2013
+ 385079046050414592                      column=text:text, timestamp=1385306918429, value=RT @mutiladomental: #NoExisteNadaMasPornoQue Charmander. Siempre es
+                                         t\xC3\xA1 con la cola muy caliente
+ 385079046050414592                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:33 +0000 2013
+ 385079046050430976                      column=text:text, timestamp=1385306918429, value=@avonsbeautiful im a trend setter
+ 385079046050430976                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:33 +0000 2013
+ 385079046054219776                      column=text:text, timestamp=1385306918429, value=#FelizInicioDeClasesEducacionMedia La educaci\xC3\xB3n liberadora i
+                                         ntercultural como forma de la inclusi\xC3\xB3n de los pueblos ind\xC3\xADgenas
+ 385079046054219776                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:33 +0000 2013
+ 385079046054223873                      column=text:text, timestamp=1385306918429, value=RT @alexinvarisi: + \xC3\x87ocuklar haftaya konuyu siz anlatacaks\x
+                                         C4\xB1n\xC4\xB1z \x0A- Olur hocam maa\xC5\x9F\xC4\xB1da b\xC3\xB6l\xC3\xBC\xC5\x9F\xC3\xBCr\xC3\xBCz amk
+ 385079046054223873                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:33 +0000 2013
+ 385079046054232064                      column=text:text, timestamp=1385306918429, value=Jam brpa dek? Sakit apa? RT @ispermai_dita: Tdi mengglnya kak,d'RS
+                                         ibnu sina"@rianiry: Ya ALLAH ga tw dek :'( RT @ispermai_dita
+ 385079046054232064                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:33 +0000 2013
+ 385079046054629376                      column=text:text, timestamp=1385306918429, value=RT @rtrfr: \xD8\xB9\xD9\x8A\xD9\x88\xD9\x86\xD9\x83 \xD8\xA7\xD8\xA
+                                         D\xD9\x84\xD9\x89\xD9\x91 \xD9\x88\xD8\xB7\xD9\x86\xD9\x92 \xD9\x84\xD8\xA7 \xD8\xAA\xD8\xA7\xD9\x87\xD8\xAA \xD8\xB
+                                         9\xD9\x8A\xD9\x88\xD9\x86\xD9\x8A \xE2\x99\xA1
+ 385079046054629376                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:33 +0000 2013
+ 385079046058414080                      column=text:text, timestamp=1385306918429, value=The @GRYNDHOUSZ  "10 INDIE COMMANDMENTS" http://t.co/dsvrKdgjaW  i
+                                         want to see some of you cats succeed(heed the words of wisdom) ,,,,,, .
+ 385079046058414080                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:33 +0000 2013
+ 385079046058414081                      column=text:text, timestamp=1385306918429, value=Express\xC3\xB5es regulares - S\xC3\xB3 para os fortes -  http://t.
+                                         co/z4Am6SX4Mp #sounerd
+ 385079046058414081                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:33 +0000 2013
+ 385079046058418176                      column=text:text, timestamp=1385306918429, value=Nek never wanna believe a nigga
+ 385079046058418176                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:33 +0000 2013
+ 385079046058438656                      column=text:text, timestamp=1385306918429, value=guilherme viado fico me zuando na aula de artes kkkkkkkkk
+ 385079046058438656                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:33 +0000 2013
+ 385079046058811392                      column=text:text, timestamp=1385306918429, value=@joebrooksmusic #Lucky!;)
+ 385079046058811392                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:33 +0000 2013
+ 385079046058835968                      column=text:text, timestamp=1385306918429, value=RT @levinejohnsonXo: Okay so school don't no if to execude Me, Emma
+                                          and Liv Worral and giving us 115 pound fine, pls school your so perfetic
+ 385079046058835968                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:33 +0000 2013
+ 385079046062612480                      column=text:text, timestamp=1385306918429, value=@miiii_01 \xE3\x81\x82\xE3\x82\x8A\xE3\x81\x8C\xE3\x81\xA8\xE3\x83\
+                                         xBC\xE2\x99\xA1(p*'\xE2\x88\x80`*q)\xE3\x82\x86\xE3\x81\xA3\xE3\x81\x8F\xE3\x82\x8A\xE4\xBC\x91\xE3\x81\xBF\xE3\x81\
+                                         xBE\xE3\x81\x99\xE2\x99\xA1
+ 385079046062612480                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:33 +0000 2013
+ 385079046062628864                      column=text:text, timestamp=1385306918429, value=@Msscftc_ \xC4\xB0nsallah askitoom :D
+ 385079046062628864                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:33 +0000 2013
+ 385079046062628865                      column=text:text, timestamp=1385306918429, value=RT @LifeTools: A true relationship is when you can tell each other
+                                         anything and everything. No secrets and no lies.
+ 385079046062628865                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:33 +0000 2013
+ 385079046062628866                      column=text:text, timestamp=1385306918429, value=RT @Synine_ilg: \xE0\xB9\x83\xE0\xB8\x84\xE0\xB8\xA3\xE0\xB8\x9A\xE
+                                         0\xB8\xAD\xE0\xB8\x81\xE0\xB8\x81\xE0\xB8\xB9\xE0\xB8\x88\xE0\xB8\xB0\xE0\xB9\x84\xE0\xB8\x9B\xE0\xB8\xAD\xE0\xB8\xB
+                                         2\xE0\xB8\x9A\xE0\xB8\x99\xE0\xB9\x89\xE0\xB8\xB3 \xE0\xB9\x80\xE0\xB8\xAB\xE0\xB9\x87\xE0\xB8\x99\xE0\xB8\xA2\xE0\x
+                                         B8\xB1\xE0\xB8\x87\xE0\xB8\xAA\xE0\xB8\xB4\xE0\xB8\x87\xE0\xB8\x97\xE0\xB8\xA5.\xE0\xB8\x9B\xE0\xB8\xA5\xE0\xB9\x88\
+                                         xE0\xB8\xAD\xE0\xB8\xA2\xE0\xB8\xA3\xE0\xB8\xB9\xE0\xB8\x9B\xE0\xB9\x80\xE0\xB8\xA3\xE0\xB8\x97\xE0\xB9\x86\xE0\xB8\
+                                         xAD\xE0\xB8\xA2\xE0\xB8\xB9\xE0\xB9\x88\xE0\xB9\x80\xE0\xB8\xA5\xE0\xB8\xA25555555555555555555555555555
+ 385079046062628866                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:33 +0000 2013
+ 385079046066806784                      column=text:text, timestamp=1385306918429, value=\xE3\x83\x87\xE3\x82\xBA\xE3\x83\x8B\xE3\x83\xBC\xE3\x82\xAD\xE3\x8
+                                         3\xA3\xE3\x83\xA9\xE3\x82\xAF\xE3\x82\xBF\xE3\x83\xBC\xE3\x81\xAE\xE3\x83\x91\xE3\x83\xB3\xE3\x83\x81\xE3\x83\xBC\xE
+                                         3\x83\x88\xE3\x81\xAE\xE9\x95\xB7\xE3\x81\x84\xE6\x9C\xAC\xE5\x90\x8D\xE3\x82\x92\xE8\xAA\xAC\xE6\x98\x8E\xE3\x81\x9
+                                         9\xE3\x82\x8B\xE6\xAD\x8C\xE3\x80\x82\xE9\x80\x94\xE4\xB8\xAD\xE3\x81\xA7\xE3\x81\xAA\xE3\x82\x93\xE3\x81\xA8\xE3\x8
+                                         2\x82\xE4\xB8\x8D\xE9\x81\xA9\xE5\x88\x87\xE3\x81\xAA\xE3\x82\x82\xE3\x81\xAE\xE3\x81\x8C\xE6\x98\xA0\xE3\x81\xA3\xE
+                                         3\x81\xA6\xE3\x81\xA6\xE3\x80\x81\xE3\x80\x81\xE3\x80\x81\xE3\x81\x99\xE3\x81\x8D\xE3\x81\xA0\xE3\x80\x82 http://t.c
+                                         o/ciXzzrC3t1
+ 385079046066806784                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:33 +0000 2013
+ 385079046066806785                      column=text:text, timestamp=1385306918429, value=Rita \xC3\xA0 Paris pour le d\xC3\xA9fil\xC3\xA9 de Chanel \xC3\xA0
+                                          la fashion week aujourd'hui #7 http://t.co/3smsiGRVft
+ 385079046066806785                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:33 +0000 2013
+ 385079046066814976                      column=text:text, timestamp=1385306918429, value=shinkin61\xE3\x81\x95\xE3\x82\x93\xE3\x81\xAE\xE8\x84\xB3\xE5\x86\x
+                                         85\xE3\x81\xAF\xE3\x80\x8C\xE6\x83\x85\xE3\x80\x8D35% \xE3\x83\x9D\xE3\x82\xA4\xE3\x83\xB3\xE3\x83\x88:40pt \xE3\x83
+                                         \xA9\xE3\x83\xB3\xE3\x82\xAD\xE3\x83\xB3\xE3\x82\xB0:361033\xE4\xBD\x8D http://t.co/0BxhokcIPJ #twimaker
+ 385079046066814976                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:33 +0000 2013
+ 385079046066819072                      column=text:text, timestamp=1385306918429, value=@fercas12 porqueeeeeeee?:(
+ 385079046066819072                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:33 +0000 2013
+ 385079046066823168                      column=text:text, timestamp=1385306918429, value=@s2mokeke \x0A\xE3\x81\x82\xE3\x81\x9F\xE3\x81\x97\xE3\x82\x82\xE8\
+                                         xA6\x8B\xE3\x81\xA6\xE3\x81\xBE\xE3\x81\x99\xEF\xBC\x81\xEF\xBC\x81\xEF\xBC\x81
+ 385079046066823168                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:33 +0000 2013
+ 385079046066827265                      column=text:text, timestamp=1385306918429, value=RT @Fukidasu__Gazou: \xE3\x81\x93\xE3\x82\x93\xE3\x81\xAA\xE6\x8A\x
+                                         95\xE3\x81\x92\xE3\x82\x84\xE3\x82\x8A\xE3\x81\xAA\xE3\x83\x91\xE3\x83\x95\xE3\x82\xA7\xE5\x88\x9D\xE3\x82\x81\xE3\x
+                                         81\xA6\xE8\xA6\x8B\xE3\x81\x9F\x0A\x0Ahttp://t.co/ag0MYJUhH2
+ 385079046066827265                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:33 +0000 2013
+ 385079046067191808                      column=text:text, timestamp=1385306918429, value=@9670Ulka \xD0\xBC\xD0\xBE\xD0\xB9 \xD0\xB0\xD0\xBD\xD0\xB3\xD0\xB5
+                                         \xD0\xBB \xD1\x85\xD1\x80\xD0\xB0\xD0\xBD\xD0\xB8\xD1\x82\xD0\xB5\xD0\xBB\xD1\x8C \xD0\xBF\xD0\xBE\xD1\x81\xD0\xBC\x
+                                         D0\xBE\xD1\x82\xD1\x80\xD0\xB8, \xD1\x82\xD0\xBE\xD0\xB6\xD0\xB5 \xD0\xBD\xD0\xB0 \xD0\xBD\xD0\xB5\xD0\xB3\xD0\xBE \
+                                         xD0\xBF\xD0\xBE\xD1\x85\xD0\xBE\xD0\xB6 \xD1\x87\xD0\xB5\xD0\xBC-\xD1\x82\xD0\xBE
+ 385079046067191808                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:33 +0000 2013
+ 385079046071005184                      column=text:text, timestamp=1385306918429, value=http://t.co/z37FRDrCmn avaya office 500 \xD0\xBC\xD0\xB0\xD0\xBD\xD
+                                         1\x83\xD0\xB0\xD0\xBB http://t.co/phQioNh217 \xD0\xB8\xD0\xBD\xD1\x81\xD1\x82\xD1\x80\xD1\x83\xD0\xBA\xD1\x86\xD0\xB
+                                         8\xD1\x8F \xD0\xBF\xD0\xBE \xD0\xBF\xD0\xBE\xD0\xBB\xD1\x8C\xD0\xB7\xD0\xBE\xD0\xB2\xD0\xB0\xD0\xBD\xD0\xB8\xD1\x8E
+                                         \xD0\xB3\xD0\xB0\xD0\xB7\xD0\xBE\xD0\xBC
+ 385079046071005184                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:33 +0000 2013
+ 385079046071390208                      column=text:text, timestamp=1385306918429, value=My poor wee body is struggling
+ 385079046071390208                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:33 +0000 2013
+ 385079046071406592                      column=text:text, timestamp=1385306918429, value=La visite du port en fait c'\xC3\xA9tait marrant.
+ 385079046071406592                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:33 +0000 2013
+ 385079046075191296                      column=text:text, timestamp=1385306918429, value=RT @Snook_TS: "@SPhoney: \xE0\xB9\x81\xE0\xB8\xAB\xE0\xB8\xA1\xE0\x
+                                         B9\x88\xE0\xB8\xB0 ! \xE0\xB9\x80\xE0\xB8\x9B\xE0\xB9\x87\xE0\xB8\x99\xE0\xB9\x80\xE0\xB8\xA3\xE0\xB8\xB7\xE0\xB9\x8
+                                         8\xE0\xB8\xAD\xE0\xB8\x87\xE0\xB9\x80\xE0\xB8\x9B\xE0\xB9\x87\xE0\xB8\x99\xE0\xB8\xA3\xE0\xB8\xB2\xE0\xB8\xA7\xE0\xB
+                                         8\x99\xE0\xB8\xB0\xE0\xB8\x84\xE0\xB8\xA3\xE0\xB8\xB1\xE0\xB8\x9A\xE0\xB9\x81\xE0\xB8\xAB\xE0\xB8\xA1\xE0\xB9\x88 55
+                                         555 http://t.co/kTL7VVxi6T\xE2\x80\x9D" \xE0\xB8\x99\xE0\xB8\xB1\xE0\xB8\x9A\xE0\xB8\xA7\xE0\xB9\x88\xE0\xB8\xB2\xE0
+                                         \xB9\x80\xE0\xB8\x9B\xE0\xB9\x87\xE0\xB8\x99\xE0\xB8\x9B\xE0\xB8\xA3\xE0\xB8\xB0\xE0\xB8\xAA\xE0\xB8\x9A\xE0\xB8\x81
+                                         \xE0\xB8\xB2\xE0\xB8\xA3\xE0\xB8\x93\xE0\xB9\x8C\xE0\xB8\x94\xE0\xB8\xB5\xE0\xB9\x86\xE0\xB8\x82\xE0\xB8\xAD\xE0\xB8
+                                         \x87\xE0\xB8\x84\xE0\xB8\x99\xE0\xB8\x97\xE0\xB8\xB5\xE0\xB9\x88\xE0\xB9\x84\xE0\xB8\x94\xE0\xB9\x89\xE0\xB9\x80\xE0
+                                         \xB8\x88\xE0\xB8\xAD\xE0\xB8\xA1\xE0\xB8\xAD\xE0\xB8\xA2\xE0\xB8\x88\xE0\xB8\xB1\xE0\xB8\xAA\xE0\xB8\x95\xE0\xB8\xB4
+                                         \xE0\xB8\x99 \xE2\x80\xA6
+ 385079046075191296                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:33 +0000 2013
+ 385079046075207680                      column=text:text, timestamp=1385306918429, value=\xEC\x88\x98\xED\x96\x89 \xEB\x81\x9D\xEB\x82\xAC\xEC\x9C\xBC\xEB\x
+                                         8B\x88\xEA\xB9\x8C \xEC\x88\x99\xEC\xA0\x9C \xED\x95\x98\xEC\xA7\x80\xEB\xA7\x90\xEA\xB9\x8C
+ 385079046075207680                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:33 +0000 2013
+ 385079046075600896                      column=text:text, timestamp=1385306918429, value=RT @MeshoYp: \xD8\xA5\xD8\xAD\xD9\x86\xD8\xA7 \xD8\xB4\xD8\xB9\xD8\
+                                         xA8 \xD8\xB3\xD9\x81\xD8\xA7\xD9\x81 \xD8\xA8\xD8\xB3.
+ 385079046075600896                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:33 +0000 2013
+ 385079046075613184                      column=text:text, timestamp=1385306918429, value=RT @_prettynpink21: Blessed \xF0\x9F\x99\x8C
+ 385079046075613184                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:33 +0000 2013
+ 385079046075613185                      column=text:text, timestamp=1385306918429, value=@janghanbyul_90 iya young juga bentar lagi kkk~ masih kerjain tugas
+                                          :D koko tidur duluan aja, nite yaaa :)
+ 385079046075613185                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:33 +0000 2013
+ 385079046079381504                      column=text:text, timestamp=1385306918429, value=Equis,es historia \xC2\xAF\_(\xE3\x83\x84)_/\xC2\xAF
+ 385079046079381504                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:33 +0000 2013
+ 385079046079389697                      column=text:text, timestamp=1385306918429, value=@nagatomomin \xE7\xB5\xB6\xE5\xAF\xBE\xE4\xBB\x95\xE4\xBA\x8B\xE3\x
+                                         81\xA7\xE3\x81\x8D\xE3\x82\x93ww
+ 385079046079389697                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:33 +0000 2013
+ 385079046079389698                      column=text:text, timestamp=1385306918429, value=@1Dbieberteam11 OMG! YOU JUST MADE MY LIFE. GOD SAVE YOU FROM BAD D
+                                         EEDS. BLESS YOU!! THANKS THOUGH. JSALKUHGLUCEEKcHIHEu &lt;33
+ 385079046079389698                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:33 +0000 2013
+ 385079046079795200                      column=text:text, timestamp=1385306918429, value=RT @JaviiSooler: Un culo y unas tetas no te van a escuchar cuando e
+                                         st\xC3\xA9s mal , campe\xC3\xB3n.
+ 385079046079795200                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:33 +0000 2013
+ 385079046083575808                      column=text:text, timestamp=1385306918429, value=@kkiri153 \xEC\x99\x80 \xEC\x83\x89\xEA\xB0\x90\xE3\x85\x82\xED\x95
+                                         \x98 \xEC\xA7\x80\xEC\xA0\x84...\xEC\x97\xAD\xEC\x8B\x9C \xEB\x81\xBC\xEB\xA6\xAC\xEC\x9D\x98 \xEC\x86\x8C\xEB\x85\x
+                                         80\xEA\xB0\x80 \xEC\xA7\xB1\xEC\xA8\xA9\xE3\x85\x87\xEC\xA7\xB1
+ 385079046083575808                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:33 +0000 2013
+ 385079046083579904                      column=text:text, timestamp=1385306918429, value=follback ya kaka' :) @ekoputroAS
+ 385079046083579904                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:33 +0000 2013
+ 385079046083584000                      column=text:text, timestamp=1385306918429, value=http://t.co/xVUFKjZb30
+ 385079046083584000                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:33 +0000 2013
+ 385079046083977216                      column=text:text, timestamp=1385306918429, value=\xD0\x9C\xD0\xBD\xD0\xB5 \xD0\xBA\xD0\xB0\xD0\xB6\xD0\xB5\xD1\x82\x
+                                         D1\x81\xD1\x8F \xD1\x8D\xD1\x82\xD0\xBE \xD0\xBE\xD1\x87\xD0\xB5\xD0\xBD\xD1\x8C \xD1\x80\xD0\xB8\xD1\x81\xD0\xBA\xD
+                                         0\xBE\xD0\xB2\xD0\xB0\xD0\xBD\xD0\xBD\xD0\xBE \xD0\xB2\xD0\xBE\xD1\x82 \xD1\x82\xD0\xB0\xD0\xBA \xD0\xB2\xD0\xBE\xD1
+                                         \x82 \xD0\xB2\xD0\xB7\xD1\x8F\xD1\x82\xD1\x8C \xD0\xB8 \xD0\xBF\xD0\xBE\xD1\x81\xD1\x80\xD0\xB5\xD0\xB4\xD0\xB8 \xD0
+                                         \xB3\xD0\xBE\xD0\xB4\xD0\xB0 \xD0\xB8\xD0\xB7\xD0\xBC\xD0\xB5\xD0\xBD\xD0\xB8\xD1\x82\xD1\x8C \xD1\x8D\xD1\x82\xD0\x
+                                         BE\xD1\x82 \xD0\xB0\xD0\xBD\xD0\xB3\xD0\xBB\xD0\xB8\xD0\xB9\xD1\x81\xD0\xBA\xD0\xB8\xD0\xB9 \xD0\xB3\xD1\x80\xD0\xB5
+                                         \xD0\xB1\xD0\xB0\xD0\xBD\xD1\x8B\xD0\xB9
+ 385079046083977216                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:33 +0000 2013
+ 385079046083989504                      column=text:text, timestamp=1385306918429, value=Manon elle sait fait recaler mdr. #LDV3
+ 385079046083989504                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:33 +0000 2013
+ 385079046084001792                      column=text:text, timestamp=1385306918429, value=@0820766294 very early its urz #blessed hun Njoy :D
+ 385079046084001792                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:33 +0000 2013
+ 385079050240131072                      column=text:text, timestamp=1385306918429, value=Reposting blog 2.0 for those who didn't catch yesterday. Huge incre
+                                         ase in views since last week- thx all! http://t.co/On5luQfic9
+ 385079050240131072                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:34 +0000 2013
+ 385079050240135168                      column=text:text, timestamp=1385306918429, value=http://t.co/khRrYoIU3y
+ 385079050240135168                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:34 +0000 2013
+ 385079050240143360                      column=text:text, timestamp=1385306918429, value=Damai atuh :(("@Dindazahraaa: Mung :(("@Serg10VD: Peace;))"@Dindaza
+                                         hraaa: \xE2\x94\x8C\xD0\x9F\xE2\x94\x90 "@Serg10VD: Pundung da :(( "@Dindazahraaa: :((("
+ 385079050240143360                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:34 +0000 2013
+ 385079050240147456                      column=text:text, timestamp=1385306918429, value=RT @YakbuldinaJ: \xD1\x83\xD0\xB6\xD0\xB5 \xD1\x81\xD0\xBA\xD0\xBE\
+                                         xD1\x80\xD0\xBE \xD0\xB3\xD0\xBE\xD0\xB4, \xD0\xBA\xD0\xB0\xD0\xBA \xD0\xBD\xD0\xB5\xD1\x82 \xD1\x82\xD0\xB5\xD0\xB1
+                                         \xD1\x8F.. http://t.co/bKmzaGj8dO
+ 385079050240147456                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:34 +0000 2013
+ 385079050240151552                      column=text:text, timestamp=1385306918429, value=@kashiwaya920 \xE6\xB6\x88\xE7\x81\xAB(\xE6\xB6\x88\xE5\x8C\x96)\xE
+                                         3\x81\x97\xE3\x81\xA6\xE6\xAC\xB2\xE3\x81\x97\xE3\x81\x84\xE2\x80\xA6
+ 385079050240151552                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:34 +0000 2013
+ 385079050240151553                      column=text:text, timestamp=1385306918429, value=\xE3\x81\xA9\xE3\x81\x86\xE8\xB6\xB3\xE6\x8E\xBB\xE3\x81\x84\xE3\x8
+                                         1\xA6\xE3\x82\x82\xE7\x94\xBB\xE8\xB3\xAA\xE3\x81\x8C\xE3\x81\x97\xE3\x81\xAC
+ 385079050240151553                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:34 +0000 2013
+ 385079050240552960                      column=text:text, timestamp=1385306918429, value=@samiy_ \x0A\xF0\x9F\x98\x8F \xD9\x84\xD8\xA7 \xD9\x8A\xD8\xA7\xD8\
+                                         xB4\xD9\x8A\xD8\xAE
+ 385079050240552960                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:34 +0000 2013
+ 385079050244345856                      column=text:text, timestamp=1385306918429, value=@snoweblossom "the Manchurians too, what should we do?" "let's figh
+                                         t them" i think i scared off some underclassmen
+ 385079050244345856                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:34 +0000 2013
+ 385079050244739072                      column=text:text, timestamp=1385306918429, value=My show on @amazingradio broadcasts out tomorrow from 9pm with a li
+                                         ve session and interview with @EyesInIstanbull - http://t.co/EGuRv3aCjC
+ 385079050244739072                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:34 +0000 2013
+ 385079050244739073                      column=text:text, timestamp=1385306918429, value=Meraba ben ilk defa haber izliyo gibiyim
+ 385079050244739073                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:34 +0000 2013
+ 385079050244751360                      column=text:text, timestamp=1385306918429, value=@____moneybaby
+ 385079050244751360                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:34 +0000 2013
+ 385079050248527872                      column=text:text, timestamp=1385306918429, value=@linggatrijayanT @yulijuliawati @ChrystaniaN kecuali tomyamnya ya m
+                                         ba,,olab sama itu mh g kangen :(( mari k sana lagi.. :'))
+ 385079050248527872                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:34 +0000 2013
+ 385079050248536064                      column=text:text, timestamp=1385306918429, value=\xE6\xAC\xA1\xE5\x9B\x9E\xE3\x81\xAE\xE6\xB4\xB2\xE5\xB4\x8E\xE8\xA
+                                         5\xBF\xE3\x81\xBE\xE3\x81\xA7\xE3\x81\x82\xE3\x81\xA87\xE6\x97\xA5\xE3\x81\xA7\xE3\x81\x99\xE3\x81\x8C\xE3\x81\xBF\x
+                                         E3\x81\xAA\xE3\x81\x95\xE3\x82\x93\xE5\xA6\x82\xE4\xBD\x95\xE3\x81\x8A\xE9\x81\x8E\xE3\x81\x94\xE3\x81\x97\xE3\x81\x
+                                         A7\xE3\x81\x99\xE3\x81\x8B? \xE7\xA7\x81\xE3\x81\xAF\xE8\xBE\x9B\xE3\x81\x84\xE3\x81\xA7\xE3\x81\x99\xE3\x80\x82 #ag
+                                         qr #\xE6\xB4\xB2\xE5\xB4\x8E\xE8\xA5\xBF
+ 385079050248536064                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:34 +0000 2013
+ 385079050248933376                      column=text:text, timestamp=1385306918429, value=RT @somurturum: Her\xC5\x9Feye maydonoz olmaya \xC3\xA7al\xC4\xB1\x
+                                         C5\x9Fanlardan nefret ederim.
+ 385079050248933376                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:34 +0000 2013
+ 385079050248945664                      column=text:text, timestamp=1385306918429, value=started a #Runtastic live tracking session. See my progress live an
+                                         d cheer me on: http://t.co/SogbmOfrPI #runtastic #Android
+ 385079050248945664                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:34 +0000 2013
+ 385079050252726272                      column=text:text, timestamp=1385306918429, value=RT @ZahideKaptan: #De\xC4\x9Fil1Y\xC4\xB1l1As\xC4\xB1rGe\xC3\xA7sed
+                                         eUnutmayaca\xC4\x9F\xC4\xB1zSeniALEX\x0A  SeniUnutmayaca\xC4\x9F\xC4\xB1z B\xC3\xBCy\xC3\xBCkKaptan ALEX http://t.co
+                                         /AdAgrfaBE5
+ 385079050252726272                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:34 +0000 2013
+ 385079050252730368                      column=text:text, timestamp=1385306918429, value=RT @LaliBeliebsDemi: "@iNavyBelieber: Same http://t.co/uXVVehtYDM"
+                                         OMG THATS ME
+ 385079050252730368                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:34 +0000 2013
+ 385079050252734464                      column=text:text, timestamp=1385306918429, value=@ychan0628 Tweet\xE5\x85\xA8\xE6\xB6\x88\xE5\x8E\xBB\xE3\x81\xA3\xE
+                                         3\x81\xA6\xE8\xAA\xBF\xE3\x81\xB9\xE3\x81\xA6\xE8\xA6\x8B\xE3\x81\xAA\xE3\x81\x95\xE3\x81\x84
+ 385079050252734464                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:34 +0000 2013
+ 385079050252738560                      column=text:text, timestamp=1385306918429, value=#nasa website isn't available anymore due to #americanshutdown #ame
+                                         rica #economics what a sad piece of information
+ 385079050252738560                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:34 +0000 2013
+ 385079050252742657                      column=text:text, timestamp=1385306918429, value=Brethren, I count not myself to have apprehended: but this one thin
+                                         g I do, forgetting those things which are behind,\xE2\x80\xA6 http://t.co/orgRf836Qf
+ 385079050252742657                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:34 +0000 2013
+ 385079050253115392                      column=text:text, timestamp=1385306918429, value=\xD9\x84\xD9\x84\xD9\x8A \xD9\x82\xD9\x84\xD8\xA8\xD9\x8A \xD9\x8A\
+                                         xD8\xAD\xD8\xA8\xD9\x87\xD9\x85 \xE2\x9D\xA4\xEF\xB8\x8F\xE2\x9D\xA4\xEF\xB8\x8F @7ayatq8 @ \xD8\xA7\xD9\x84\xD9\x88
+                                         \xD8\xB1\xD8\xAF \xD9\x85\xD9\x86 \xD9\x84\xD9\x87 \xF0\x9F\x8C\xB9\xF0\x9F\x8D\x83\xF0\x9F\x8C\xB7 http://t.co/FeoI
+                                         yDC9jT
+ 385079050253115392                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:34 +0000 2013
+ 385079050253119488                      column=text:text, timestamp=1385306918429, value=ne perds pas espoir, l'avenir te sourira t\xC3\xB4t ou tard. enfin
+                                         le bonheur s'ouvrira a toi et un vrai sourire appara\xC3\xAEtra.
+ 385079050253119488                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:34 +0000 2013
+ 385079050256912384                      column=text:text, timestamp=1385306918429, value=@Juli_Grillo JAJAJAJAJAJA estoy re limada nose que me pasa
+ 385079050256912384                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:34 +0000 2013
+ 385079050256928768                      column=text:text, timestamp=1385306918429, value=@LarryWHomeSmart @DesertTrina @gfallar @CoyotesAvs12 @john181818 ye
+                                         ah..no that isn't it!
+ 385079050256928768                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:34 +0000 2013
+ 385079050256936960                      column=text:text, timestamp=1385306918429, value=dijual kenari 500 rb nego, sehat, mulus, kicau variasi http://t.co/
+                                         3bn9IB4Tg8
+ 385079050256936960                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:34 +0000 2013
+ 385079050256936962                      column=text:text, timestamp=1385306918429, value=\xE3\x81\xA6\xE3\x81\xAB\xE3\x82\x92\xE3\x81\xAF\xE3\x81\x95\xE3\x8
+                                         2\x93\xE3\x81\xAE\xE6\x9B\xB2\xE8\x81\x9E\xE3\x81\x8D\xE3\x81\xAA\xE3\x81\x8C\xE3\x82\x89\xEF\xBC\xA7\xE3\x83\x86\xE
+                                         3\x83\x83\xE3\x82\xAF\xE3\x82\x84\xE3\x81\xA3\xE3\x81\xA6\xE3\x82\x8B\xE3\x81\x91\xE3\x81\xA9\xE3\x81\xBE\xE3\x81\x8
+                                         2\xE3\x81\x93\xE3\x82\x8C\xE7\xB5\x82\xE3\x82\x8F\xE3\x82\x89\xE3\x81\xAD\xE3\x81\x88\xE3\x81\xAA\xE3\x83\xBD(\xEF\x
+                                         BC\x9B\xE2\x96\xBD\xEF\xBC\x9B)\xE3\x83\x8E
+ 385079050256936962                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:34 +0000 2013
+ 385079050257321984                      column=text:text, timestamp=1385306918429, value=RT @Hayat_Felsefesi: S\xC3\xB6z, anlayana s\xC3\xB6ylenir; yoksa su
+                                         smak daha iyidir.
+ 385079050257321984                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:34 +0000 2013
+ 385079050261106688                      column=text:text, timestamp=1385306918429, value=@tyaon92s \xE3\x81\x9D\xE3\x82\x93\xE3\x81\xAA\xE3\x82\x82\xE3\x82\
+                                         x93\xE3\x81\x95
+ 385079050261106688                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:34 +0000 2013
+ 385079050261106689                      column=text:text, timestamp=1385306918429, value=RT @RickyPDillon: i uploaded a new vlog today on my 2nd channel! ch
+                                         eck it out! http://t.co/VHj3BSDvEC gonna start uploading a new vlog almo\xE2\x80\xA6
+ 385079050261106689                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:34 +0000 2013
+ 385079050261114880                      column=text:text, timestamp=1385306918429, value=RT @G_Higuain: Buenas tardes amigos. Espero que esten bien.Quiero a
+                                         clarar que mi instagram es Ghiguain20_9. Hay uno que se hace pasar por m\xE2\x80\xA6
+ 385079050261114880                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:34 +0000 2013
+ 385079050261114881                      column=text:text, timestamp=1385306918429, value=Lagrimas de emocionnnn :')
+ 385079050261114881                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:34 +0000 2013
+ 385079050261127168                      column=text:text, timestamp=1385306918429, value=#ElounorIsReal
+ 385079050261127168                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:34 +0000 2013
+ 385079050261131264                      column=text:text, timestamp=1385306918429, value=@ktkr1640 \xE5\xA4\x9A\xE5\x88\x86\xE3\x81\xA0\xE3\x81\x91\xE3\x81\
+                                         xA9\xEF\xBC\x81\xE3\x81\x86\xE3\x81\xA1\xE3\x81\xAF\xE8\x81\x9E\xE3\x81\x91\xE3\x81\xBE\xE3\x81\x97\xE3\x81\x9F\xEF\
+                                         xBC\x81
+ 385079050261131264                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:34 +0000 2013
+ 385079050261131265                      column=text:text, timestamp=1385306918429, value=Happy birthday to the prettiest, sweetest, funniest girl @stephthal
+                                         e http://t.co/DyTwuXLa5J
+ 385079050261131265                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:34 +0000 2013
+ 385079050261495808                      column=text:text, timestamp=1385306918429, value=Can't think of a way to start this essay! Stressing me ouuuuuut
+ 385079050261495808                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:34 +0000 2013
+ 385079050261495809                      column=text:text, timestamp=1385306918429, value=guigui t\xC3\xA1 aqui na baia
+ 385079050261495809                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:34 +0000 2013
+ 385079050261504000                      column=text:text, timestamp=1385306918429, value=Vivi nel passato e vivrai una vita di rimpianti
+ 385079050261504000                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:34 +0000 2013
+ 385079050261512192                      column=text:text, timestamp=1385306918429, value=@_keila_  @VirginiaContini  nada de comprar terrenoo jaja
+ 385079050261512192                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:34 +0000 2013
+ 385079050261520384                      column=text:text, timestamp=1385306918429, value=The End.
+ 385079050261520384                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:34 +0000 2013
+ 385079050261528576                      column=text:text, timestamp=1385306918429, value=Estamos orgullosos hoy?
+ 385079050261528576                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:34 +0000 2013
+ 385079050265309184                      column=text:text, timestamp=1385306918429, value=\xE3\x80\x8ENEW TREASURE STAGE\xEF\xBC\x94\xEF\xBC\x8FLESSON\xEF\xB
+                                         C\x95\xE3\x80\x8F \xE2\x87\x92http://t.co/zRNL0kBRTp
+ 385079050265309184                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:34 +0000 2013
+ 385079050265317376                      column=text:text, timestamp=1385306918429, value=@Riku_Kobayashi kukuku, a estos les hace falta un tiempo de mili (?
+                                         )
+ 385079050265317376                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:34 +0000 2013
+ 385079050265321472                      column=text:text, timestamp=1385306918429, value=@alexisloreniaa what was you weearing
+ 385079050265321472                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:34 +0000 2013
+ 385079050265321473                      column=text:text, timestamp=1385306918429, value=I'm so excited!!!  \xE2\x80\x9C@ShaunaBrentell: @Pinklip_Bandit \xF
+                                         0\x9F\x98\x8DThose would be Bomb on u\xE2\x80\x9D
+ 385079050265321473                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:34 +0000 2013
+ 385079050265321474                      column=text:text, timestamp=1385306918429, value=@typierce21 \xF0\x9F\x98\xA2
+ 385079050265321474                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:34 +0000 2013
+ 385079050265702400                      column=text:text, timestamp=1385306918429, value=2013 almost over wtf
+ 385079050265702400                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:34 +0000 2013
+ 385079050265722880                      column=text:text, timestamp=1385306918429, value=RT @Prisoner1433: \xE2\x80\x9C@e3teqal: \xD9\x81\xD9\x8A \xD8\xA7\x
+                                         D9\x84\xD8\xAA\xD8\xA7\xD8\xB3\xD8\xB9\xD8\xA9 \xD8\xA7\xD9\x84\xD9\x8A\xD9\x88\xD9\x85 \xD8\xB9\xD9\x84\xD9\x89 \xD
+                                         9\x88\xD8\xB3\xD9\x85 #\xD8\xAA\xD8\xB9\xD8\xB0\xD9\x8A\xD8\xA8_\xD8\xA7\xD9\x84\xD8\xB4\xD9\x8A\xD8\xAE_\xD8\xAE\xD
+                                         8\xA7\xD9\x84\xD8\xAF_\xD8\xA7\xD9\x84\xD8\xB1\xD8\xA7\xD8\xB4\xD8\xAF \xD9\x8A\xD9\x83\xD8\xB4\xD9\x81 \xD8\xB0\xD9
+                                         \x88\xD9\x8A \xD8\xA7\xD9\x84\xD8\xB4\xD9\x8A\xD8\xAE \xD8\xA8\xD8\xB9\xD8\xB6 \xD9\x85\xD8\xB9\xD8\xA7\xD9\x86\xD8\
+                                         xA7\xD8\xAA\xD9\x87 \xD9\x81\xD9\x8A \xD8\xA7\xD9\x84\xD8\xB3\xD8\xAC\xD9\x86\x0A\x0A#\xD8\xA7\xD9\x84\xD8\xB3\xD8\x
+                                         B9\xD9\x88\xD8\xAF\xD9\x8A\xD8\xA9 http://t.co/g\xE2\x80\xA6
+ 385079050265722880                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:34 +0000 2013
+ 385079050269491200                      column=text:text, timestamp=1385306918429, value=@Liz14344Liz @ateIrms @LG_Bubbly naku di ka na nasanay sa mga yang,
+                                         mga hate campaign yan para masira si SG..daming bitter sa mundo sis lol
+ 385079050269491200                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:34 +0000 2013
+ 385079050269507584                      column=text:text, timestamp=1385306918429, value=to falando com o gatao do leuu no whats
+ 385079050269507584                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:34 +0000 2013
+ 385079050269507585                      column=text:text, timestamp=1385306918429, value=la re cojo a miqui
+ 385079050269507585                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:34 +0000 2013
+ 385079050273685504                      column=text:text, timestamp=1385306918429, value=Ju mdddddr #idv3
+ 385079050273685504                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:34 +0000 2013
+ 385079050273689600                      column=text:text, timestamp=1385306918429, value=@lala192O lol
+ 385079050273689600                      column=time:time, timestamp=1385306918429, value=Tue Oct 01 16:29:34 +0000 2013
+100 row(s) in 1.9760 seconds
