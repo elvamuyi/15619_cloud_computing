@@ -13,12 +13,6 @@ def time_format(time):
   t = datetime.datetime.strptime(time, "%Y-%m-%d %H:%M:%S")
   return t.strftime("%a %b %d %H:%M:%S +0000 %Y")
 
-# for q2 encoding and decoding issue
-def utf8_to_unicode(uft8_str):
-  unicode_str = uft8_str.decode('utf8')
-  printable = repr(unicode_str)[1:]
-  return printable[1:-1]
-
 # pass q2 queries to hbase
 def q2_hbase(time):
   conn = happybase.Connection(HBASE_SERVER)
@@ -35,7 +29,12 @@ def q2_hbase(time):
   table2 = conn.table(TABLE_TWEET)
   result_string = ""
   for key, value in table2.rows(row_keys, columns=["text:text"]):
-    result_string += key + ':' + (json.dumps(value["text:text"]))[1:-1].replace('http://','http:\/\/') +'\n'
+    converted_value = (json.dumps(value["text:text"]))[1:-1]
+    converted_value = converted_value.replace('/','\/')
+    converted_value = converted_value.replace('{','\\u007b')
+    converted_value = converted_value.replace('}','\\u007d')
+
+    result_string += key + ':' + converted_value +'\n'
 
   return result_string
 
@@ -74,4 +73,3 @@ def q4_hbase(userid):
     result_string += results[i]+'\n'
 
   return result_string
-
