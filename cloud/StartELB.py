@@ -9,8 +9,8 @@ import boto.ec2.cloudwatch
 import os
 import time
 
-AVAILABLE_ZONE = 'us-east-1d' //
-AMI_ID = 'ami-2b7b2c42'       //
+AVAILABLE_ZONE = 'us-east-1d' ##
+AMI_ID = 'ami-2b7b2c42'       ##
 INSTANCE_TYPE = 'm1.medium'
 MIN_SIZE = 1
 MAX_SIZE = 8
