@@ -1,5 +1,3 @@
-#!/usr/bin/python
-
 import boto
 import boto.ec2
 import boto.ec2.elb
@@ -10,7 +8,7 @@ import os
 import time
 
 AVAILABLE_ZONE = 'us-east-1d' ##
-AMI_ID = 'ami-2b7b2c42'       ##
+AMI_ID = 'ami-fd426294'       ##
 INSTANCE_TYPE = 'm1.medium'
 MIN_SIZE = 1
 MAX_SIZE = 8
@@ -121,21 +119,3 @@ scale_down_alarm = boto.ec2.cloudwatch.alarm.MetricAlarm(
 
 cw.create_alarm(scale_up_alarm)
 cw.create_alarm(scale_down_alarm)
-
-# wait until there's some instance in service on elb
-#while str(elb.get_instance_health()).find('InService') == -1:
-#  time.sleep(5)
-#time.sleep(30)
-
-# in service ... ...
-# in service ... ...
-
-# clean up
-#ag.shutdown_instances()
-#while len(as_conn.get_all_autoscaling_instances()) > 0:
-#  time.sleep(10)
-
-#ag.delete()
-#time.sleep(5)
-#lc.delete()
-#elb.delete()
