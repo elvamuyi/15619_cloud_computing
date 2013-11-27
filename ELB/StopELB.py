@@ -14,7 +14,7 @@ elb_conn = boto.ec2.elb.ELBConnection(
   'AKIAIMMVA5TNRP7KRHKA',
   'hECzayjh4i4baoJTERaZbIzTqZn1eH9GHfkb7Ek3')
 
-elb = elb_conn = get_all_load_balancers()[0]
+elb = elb_conn.get_all_load_balancers()[0]
 
 # create an autoscale connection
 as_conn = boto.ec2.autoscale.AutoScaleConnection(
