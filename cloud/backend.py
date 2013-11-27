@@ -1,7 +1,8 @@
 import happybase
 import datetime
+import json
 
-HBASE_SERVER = 'ec2-107-21-157-106.compute-1.amazonaws.com'
+HBASE_SERVER = 'ec2-54-227-120-43.compute-1.amazonaws.com'
 TABLE_TWEET = 'tweet'
 TABLE_USER = 'user'
 TABLE_TIME = 'time'
@@ -34,7 +35,7 @@ def q2_hbase(time):
   table2 = conn.table(TABLE_TWEET)
   result_string = ""
   for key, value in table2.rows(row_keys, columns=["text:text"]):
-    result_string += key + ':' + utf8_to_unicode(value["text:text"]).replace('/'                                                                             ,'\/') +'\n'
+    result_string += key + ':' + (json.dumps(value["text:text"]))[1:-1].replace('http://','http:\/\/') +'\n'
 
   return result_string
 
@@ -47,7 +48,7 @@ def q3_hbase(userid_min, userid_max):
   uid_max = "{:0>20d}".format(long(str(userid_max)) + 1L)
 
   sum = 0
-  for key, value in table.scan(row_start=uid_min, row_stop=uid_max, columns=["co                                                                             unt:count"]):
+  for key, value in table.scan(row_start=uid_min, row_stop=uid_max, columns=["count:count"]):
     result = value['count:count']
     sum += int(result.encode('hex'), 16)
 
@@ -73,3 +74,4 @@ def q4_hbase(userid):
     result_string += results[i]+'\n'
 
   return result_string
+
