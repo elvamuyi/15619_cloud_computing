@@ -54,7 +54,7 @@ public class AddTweetsToTimeTable {
       }
       
       Put put = new Put(Bytes.toBytes(key.toString()));   // use user id as row key
-      put.add(TWEET, TID, Bytes.toBytes(tweets));      // Column Family: re, Column: re_uids, Value: re_users
+      put.add(TWEET, TID, Bytes.toBytes(tweets));      // Column Family: tweet, Column: tid, Value: tweets
       context.write(null, put);
     }
   }
