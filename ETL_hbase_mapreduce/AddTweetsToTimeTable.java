@@ -30,7 +30,7 @@ public class AddTweetsToTimeTable {
     private Text tweet_id = new Text();
     
     public void map(ImmutableBytesWritable row, Result columns, Context context) throws IOException, InterruptedException {
-      String created_at = new String(columns.getValue(TIME, TIME));  // get value in column "user:uid"
+      String created_at = new String(columns.getValue(TIME, TIME));  // get value in column "time:time"
       String tid = new String(row.get());
       time.set(created_at);
       tweet_id.set(tid);
@@ -53,7 +53,7 @@ public class AddTweetsToTimeTable {
         tweets += tweet + "\n";
       }
       
-      Put put = new Put(Bytes.toBytes(key.toString()));   // use user id as row key
+      Put put = new Put(Bytes.toBytes(key.toString()));   // use time as row key
       put.add(TWEET, TID, Bytes.toBytes(tweets));      // Column Family: tweet, Column: tid, Value: tweets
       context.write(null, put);
     }
